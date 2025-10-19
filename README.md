@@ -1,4 +1,4 @@
-# Galton Board Experiment
+# Galton Board Assignment
 
 This program simulates a Galton board to compare the observed ball distribution with the theoretical binomial and normal distributions. It also computes the mean squared errors (MSE) between them.
 
@@ -21,7 +21,7 @@ No external libraries are needed.
 To compile the program, run:
 
 ```bash
-g++ -std=c++17 -o galtonboard galtonboard.cpp
+g++ -o galtonboard galtonboard.cpp
 ```
 
 This will produce an executable named `galtonboard`.
